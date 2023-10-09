@@ -5,7 +5,7 @@ This is Spark Structured Streaming (Python or Scala) application in working cond
 ## Data Flow
 
 # Real Time processing
-    Kafka -> Silver -> Gold
+    Kafka -> Silver -> (Batch Processing 1 hr) -> Gold
 
 # Batch Processing
     Landing Area -> Bronze -> Silver -> Gold
