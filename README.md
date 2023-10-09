@@ -83,7 +83,7 @@ This is Spark Structured Streaming (Python or Scala) application in working cond
 
 
 ## Upsert Operation
-- If unserlying transaction supports ACID transaction or allow Upsert opeation like (Apache HUDI) we can use the hashing function to generetate the recordkey.field.
+- If underlying storage supports ACID transactions or allow Upsert opeations like (Apache HUDI) we can use the hashing function to  generetate the recordkey.field.
 
             df_articleauthor.withColumn('article_author_hash',generate_hash(df_articleauthor.pmid))
 
