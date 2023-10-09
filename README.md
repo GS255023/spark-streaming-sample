@@ -120,4 +120,4 @@ Prerequisites:
 
 ## Scripts
 
-- spark-submit.sh src/silver/job_interface/upsert_runner.py 128M
+-  ./scripts/spark-submit.sh src/silver/job_interface/upsert_runner.py 128M
