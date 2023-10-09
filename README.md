@@ -90,7 +90,7 @@ This is Spark Structured Streaming (Python or Scala) application in working cond
 
 ## Writing Stream Data to Datalale
 
-- Data is streamed and stored in Datalake in parquet format and also checkpoint  helps to build fault-tolerant and resilient Spark applications.
+- Data is streamed and stored in Datalake in parquet format and also checkpointing helps to build fault-tolerant and resilient Spark applications.
 - Ideally as we are reading data from kafka directly we should be streamed transformed data into HUDI table or Delta lake Silver tables to avoid hoping from Bronze to Silver layer step.
 
                       writer = pubmed_df.writeStream.format('parquet') \
