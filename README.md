@@ -17,7 +17,7 @@ This is Spark Structured Streaming (Python or Scala) application in working cond
 
   - Silver:
 
-    - job_interface: Main runner aplication or entry point of spark application.
+    - job_interface: Main runner application or entry point of spark application.
 
     - data_layer: This layer deals with data attributes of the object like column_list,table_name which needs to extracted,processed and ingested into the target table. This layer also helps to intreact with underlying storage like storing data to target table or reading from target table. Common functionality is abstracted into Abstract class to bring uniformity and avoiding code repitition for different data objects.
 
