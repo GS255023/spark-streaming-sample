@@ -1,0 +1,323 @@
+<root>
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+      <PMID Version="1">72</PMID>
+      <DateCompleted>
+        <Year>1976</Year>
+        <Month>02</Month>
+        <Day>13</Day>
+      </DateCompleted>
+      <DateRevised>
+        <Year>2019</Year>
+        <Month>06</Month>
+        <Day>09</Day>
+      </DateRevised>
+      <Article PubModel="Print">
+        <Journal>
+          <ISSN IssnType="Print">0006-3002</ISSN>
+          <JournalIssue CitedMedium="Print">
+            <Volume>410</Volume>
+            <Issue>1</Issue>
+            <PubDate>
+              <Year>1975</Year>
+              <Month>Nov</Month>
+              <Day>20</Day>
+            </PubDate>
+          </JournalIssue>
+          <Title>Biochimica et biophysica acta</Title>
+          <ISOAbbreviation>Biochim Biophys Acta</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Preparation and characterization of an enzymatically active immobilized derivative of myosin.</ArticleTitle>
+        <Pagination>
+          <MedlinePgn>178-92</MedlinePgn>
+        </Pagination>
+        <Abstract>
+          <AbstractText>Purified skeletal muscle myosin (EC 3.6.1.3) has been covalently bound to Sepharose 4B by the cyanogen bromide procedure. The resulting complex, Sepharose-Myosin, possesses adenosine triphosphatase activity and is relatively stable for long periods of time. Under optimal binding conditions, approximately 33% of the specific ATPase activity of the bound myosin is retained. Polyacrylamide gel electrophoresis of polypeptides released from denatured Sepharose-Myosin indicates that 85% of the myosin is attached to the agarose beads through the heavy chains and the remainder through the light chains, in agreement with predictions of binding and release based upon either the lysine contents or molecular weights of themyosin subunits. The adenosine triphosphatase of the immobilized myosin has been investigated under conditions of varying pH, ionic strength, and cation concentration. The ATPase profiles of immobilized myosin are quite similar to those for free myosin, however subtle differences are found. The Sepharose-Myosin ATPase is not as sensitive as myosin to alterations in salt concentration and the apparent KM is approximately two-fold higher than that of myosin. These differences are probably due to chemical modification in the region of the attachment site(s) to the agarose beads and hydration and diffusion limitations imposed by the polymeric agarose matrix.</AbstractText>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Elgart</LastName>
+            <ForeName>E S</ForeName>
+            <Initials>ES</Initials>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Gusovsky</LastName>
+            <ForeName>T</ForeName>
+            <Initials>T</Initials>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Rosenberg</LastName>
+            <ForeName>M D</ForeName>
+            <Initials>MD</Initials>
+          </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>Netherlands</Country>
+        <MedlineTA>Biochim Biophys Acta</MedlineTA>
+        <NlmUniqueID>0217513</NlmUniqueID>
+        <ISSNLinking>0006-3002</ISSNLinking>
+      </MedlineJournalInfo>
+      <ChemicalList>
+        <Chemical>
+          <RegistryNumber>0</RegistryNumber>
+          <NameOfSubstance UI="D000199">Actins</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+          <RegistryNumber>660YQ98I10</RegistryNumber>
+          <NameOfSubstance UI="D011189">Potassium Chloride</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+          <RegistryNumber>9012-36-6</RegistryNumber>
+          <NameOfSubstance UI="D012685">Sepharose</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+          <RegistryNumber>9G34HU7RV0</RegistryNumber>
+          <NameOfSubstance UI="D004492">Edetic Acid</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+          <RegistryNumber>EC 3.6.1.-</RegistryNumber>
+          <NameOfSubstance UI="D000251">Adenosine Triphosphatases</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+          <RegistryNumber>EC 3.6.4.1</RegistryNumber>
+          <NameOfSubstance UI="D009218">Myosins</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+          <RegistryNumber>SY7Q814VUP</RegistryNumber>
+          <NameOfSubstance UI="D002118">Calcium</NameOfSubstance>
+        </Chemical>
+      </ChemicalList>
+      <CitationSubset>IM</CitationSubset>
+      <CitationSubset>S</CitationSubset>
+      <MeshHeadingList>
+        <MeshHeading>
+          <DescriptorName UI="D000199" MajorTopicYN="N">Actins</DescriptorName>
+          <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D000251" MajorTopicYN="N">Adenosine Triphosphatases</DescriptorName>
+          <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D002118" MajorTopicYN="N">Calcium</DescriptorName>
+          <QualifierName UI="Q000494" MajorTopicYN="N">pharmacology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D002645" MajorTopicYN="N">Chickens</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D002846" MajorTopicYN="N">Chromatography, Affinity</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D004492" MajorTopicYN="N">Edetic Acid</DescriptorName>
+          <QualifierName UI="Q000494" MajorTopicYN="N">pharmacology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D004789" MajorTopicYN="N">Enzyme Activation</DescriptorName>
+          <QualifierName UI="Q000187" MajorTopicYN="N">drug effects</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D006863" MajorTopicYN="N">Hydrogen-Ion Concentration</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D008970" MajorTopicYN="N">Molecular Weight</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D009132" MajorTopicYN="N">Muscles</DescriptorName>
+          <QualifierName UI="Q000201" MajorTopicYN="N">enzymology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D009218" MajorTopicYN="N">Myosins</DescriptorName>
+          <QualifierName UI="Q000302" MajorTopicYN="N">isolation &amp; purification</QualifierName>
+          <QualifierName UI="Q000378" MajorTopicYN="Y">metabolism</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D009994" MajorTopicYN="N">Osmolar Concentration</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D011189" MajorTopicYN="N">Potassium Chloride</DescriptorName>
+          <QualifierName UI="Q000494" MajorTopicYN="N">pharmacology</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D011485" MajorTopicYN="N">Protein Binding</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D012685" MajorTopicYN="N">Sepharose</DescriptorName>
+        </MeshHeading>
+      </MeshHeadingList>
+      <OtherID Source="NASA">76062498</OtherID>
+    </MedlineCitation>
+	<PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>1975</Year>
+          <Month>11</Month>
+          <Day>20</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>1975</Year>
+          <Month>11</Month>
+          <Day>20</Day>
+          <Hour>0</Hour>
+          <Minute>1</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>1975</Year>
+          <Month>11</Month>
+          <Day>20</Day>
+          <Hour>0</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>ppublish</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">72</ArticleId>
+        <ArticleId IdType="pii">0005-2744(75)90219-3</ArticleId>
+        <ArticleId IdType="doi">10.1016/0005-2744(75)90219-3</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+   <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+      <PMID Version="1">12265</PMID>
+      <DateCompleted>
+        <Year>1977</Year>
+        <Month>02</Month>
+        <Day>24</Day>
+      </DateCompleted>
+      <DateRevised>
+        <Year>2019</Year>
+        <Month>07</Month>
+        <Day>10</Day>
+      </DateRevised>
+      <Article PubModel="Print">
+        <Journal>
+          <ISSN IssnType="Print">0022-3573</ISSN>
+          <JournalIssue CitedMedium="Print">
+            <Volume>28</Volume>
+            <Issue>12</Issue>
+            <PubDate>
+              <Year>1976</Year>
+              <Month>Dec</Month>
+            </PubDate>
+          </JournalIssue>
+          <Title>The Journal of pharmacy and pharmacology</Title>
+          <ISOAbbreviation>J Pharm Pharmacol</ISOAbbreviation>
+        </Journal>
+        <ArticleTitle>Size analysis of metered suspension pressurized aerosols with the Quantimet 720.</ArticleTitle>
+        <Pagination>
+          <MedlinePgn>890-7</MedlinePgn>
+        </Pagination>
+        <Abstract>
+          <AbstractText>A method is described for particle sizing of pressurized metered suspension aerosols by collection in a settling drum followed by microscopic evaluation of the slides with a Quantimet 720 automatic image analyser. The method gives satisfactory representation of the distribution of particles settling to the drum base, and demonstrates the excellent stability and reproducibility between and within aerosol packs for two widely used inhalation products. There is much drug deposition of somewhat finer size distribution on the wall of the drum than on the drum base. In spite of this wall loss, the method gives only slightly higher results for the weight and number mean diameters, than when both wall and base distributions are considered. The Quantimet was found to be suitable for particle sizing salbutamol used in preparing aerosol products.</AbstractText>
+        </Abstract>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y">
+            <LastName>Hallworth</LastName>
+            <ForeName>G W</ForeName>
+            <Initials>GW</Initials>
+            <AffiliationInfo>
+              <Affiliation>Pharmaceutical Research Department, Allen and Hanburys Research Ltd., Ware, Herts, U.K.</Affiliation>
+            </AffiliationInfo>
+          </Author>
+          <Author ValidYN="Y">
+            <LastName>Hamilton</LastName>
+            <ForeName>R R</ForeName>
+            <Initials>RR</Initials>
+          </Author>
+        </AuthorList>
+        <Language>eng</Language>
+        <PublicationTypeList>
+          <PublicationType UI="D016428">Journal Article</PublicationType>
+        </PublicationTypeList>
+      </Article>
+      <MedlineJournalInfo>
+        <Country>England</Country>
+        <MedlineTA>J Pharm Pharmacol</MedlineTA>
+        <NlmUniqueID>0376363</NlmUniqueID>
+        <ISSNLinking>0022-3573</ISSNLinking>
+      </MedlineJournalInfo>
+      <ChemicalList>
+        <Chemical>
+          <RegistryNumber>0</RegistryNumber>
+          <NameOfSubstance UI="D000336">Aerosols</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+          <RegistryNumber>0</RegistryNumber>
+          <NameOfSubstance UI="D013535">Suspensions</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+          <RegistryNumber>KGZ1SLC28Z</RegistryNumber>
+          <NameOfSubstance UI="D001507">Beclomethasone</NameOfSubstance>
+        </Chemical>
+        <Chemical>
+          <RegistryNumber>QF8SVZ843E</RegistryNumber>
+          <NameOfSubstance UI="D000420">Albuterol</NameOfSubstance>
+        </Chemical>
+      </ChemicalList>
+      <CitationSubset>IM</CitationSubset>
+      <MeshHeadingList>
+        <MeshHeading>
+          <DescriptorName UI="D000336" MajorTopicYN="Y">Aerosols</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D000420" MajorTopicYN="N">Albuterol</DescriptorName>
+          <QualifierName UI="Q000008" MajorTopicYN="N">administration &amp; dosage</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D001507" MajorTopicYN="N">Beclomethasone</DescriptorName>
+          <QualifierName UI="Q000008" MajorTopicYN="N">administration &amp; dosage</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D002626" MajorTopicYN="N">Chemistry, Pharmaceutical</DescriptorName>
+          <QualifierName UI="Q000379" MajorTopicYN="Y">methods</QualifierName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D010316" MajorTopicYN="Y">Particle Size</DescriptorName>
+        </MeshHeading>
+        <MeshHeading>
+          <DescriptorName UI="D013535" MajorTopicYN="N">Suspensions</DescriptorName>
+        </MeshHeading>
+      </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+      <History>
+        <PubMedPubDate PubStatus="pubmed">
+          <Year>1976</Year>
+          <Month>12</Month>
+          <Day>1</Day>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="medline">
+          <Year>1976</Year>
+          <Month>12</Month>
+          <Day>1</Day>
+          <Hour>0</Hour>
+          <Minute>1</Minute>
+        </PubMedPubDate>
+        <PubMedPubDate PubStatus="entrez">
+          <Year>1976</Year>
+          <Month>12</Month>
+          <Day>1</Day>
+          <Hour>0</Hour>
+          <Minute>0</Minute>
+        </PubMedPubDate>
+      </History>
+      <PublicationStatus>ppublish</PublicationStatus>
+      <ArticleIdList>
+        <ArticleId IdType="pubmed">12265</ArticleId>
+        <ArticleId IdType="doi">10.1111/j.2042-7158.1976.tb04087.x</ArticleId>
+      </ArticleIdList>
+    </PubmedData>
+  </PubmedArticle>
+</root>

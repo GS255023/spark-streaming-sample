@@ -1,0 +1,2 @@
+v1
+{"path":"file:///workspaces/spark-streaming-sample/datalake/silver/tbl_article_author/pub_year=1988/part-00000-6b5e71a8-c84c-4f05-9da5-78ba81ffa581.c000.snappy.parquet","size":2885,"isDir":false,"modificationTime":1696863319101,"blockReplication":1,"blockSize":33554432,"action":"add"}

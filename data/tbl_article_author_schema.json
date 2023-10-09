@@ -1,0 +1,41 @@
+{
+    "type": "struct",
+    "fields": [
+        {
+            "name": "file_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "pmid",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "last_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "fore_name",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "Initials",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        },
+        {
+            "name": "article_author_hash",
+            "type": "string",
+            "nullable": true,
+            "metadata": {}
+        }
+    ]
+}
