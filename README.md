@@ -68,17 +68,17 @@ This is Spark Structured Streaming (Python or Scala) application in working cond
 
       # Flattern the xml strucuture
 
-            df_articleauthor = df_articleauthor \
-                            .withColumn("partition",expr("partition"))  \
-                            .withColumn("offset",expr("offset"))  \
-                            .withColumn("key",expr("key"))  \
-                            .withColumn("pmid", expr("xpath_string(value, '/root/PubmedArticle/MedlineCitation/PMID/text()') as pmid"))  \
-                            .withColumn("authors",explode(arrays_zip(
-                                    expr("xpath(value, '/root/PubmedArticle/MedlineCitation/Article/AuthorList/Author/LastName/text()') as last_name"),
-                                    expr("xpath(value, '/root/PubmedArticle/MedlineCitation/Article/AuthorList/Author/ForeName/text()') as fore_name"),
-                                    expr("xpath(value, '/root/PubmedArticle/MedlineCitation/Article/AuthorList/Author/Initials/text()') as Initials")
-                                    ).cast("array<struct<last_name:string,fore_name:string,Initials:string>>"))) \
-                            .select("partition","offset","key", "pmid", "authors.*")
+        df_articleauthor = df_articleauthor \
+                  .withColumn("partition",expr("partition"))  \
+                  .withColumn("offset",expr("offset"))  \
+                  .withColumn("key",expr("key"))  \
+                  .withColumn("pmid", expr("xpath_string(value, '/root/PubmedArticle/MedlineCitation/PMID/text()') as pmid"))  \
+                  .withColumn("authors",explode(arrays_zip(
+                              expr("xpath(value, '/root/PubmedArticle/MedlineCitation/Article/AuthorList/Author/LastName/text()') as last_name"),
+                              expr("xpath(value, '/root/PubmedArticle/MedlineCitation/Article/AuthorList/Author/ForeName/text()') as fore_name"),
+                              expr("xpath(value, '/root/PubmedArticle/MedlineCitation/Article/AuthorList/Author/Initials/text()') as Initials")
+                              ).cast("array<struct<last_name:string,fore_name:string,Initials:string>>"))) \
+                  .select("partition","offset","key", "pmid", "authors.*")
 
 
 
@@ -88,19 +88,21 @@ This is Spark Structured Streaming (Python or Scala) application in working cond
             df_articleauthor.withColumn('article_author_hash',generate_hash(df_articleauthor.pmid))
 
 
-## Writing Stream Data to Datalale
+## Writing Stream Data to Datalake
 
 - Data is streamed and stored in Datalake in parquet format and also checkpointing helps to build fault-tolerant and resilient Spark applications.
 - Ideally as we are reading data from kafka directly we should be streamed transformed data into HUDI table or Delta lake Silver tables to avoid hoping from Bronze to Silver layer step.
 
-                      writer = pubmed_df.writeStream.format('parquet') \
-                                        .option('checkpointLocation',self.checkpointPath) \
-                                        .partitionBy("pub_year" ) \
-                                        .start(self.write_base_path) \
-                                        .awaitTermination()
+                writer = pubmed_df.writeStream.format('parquet') \
+                                  .option('checkpointLocation',self.checkpointPath) \
+                                  .partitionBy("pub_year" ) \
+                                  .start(self.write_base_path) \
+                                  .awaitTermination()
 - Partitioned Datalake
-  Datalake is partitioned on pub_year column like
-      /datalake/silver/tbl_article_author/pub_year=1988/
+
+    Datalake is partitioned on pub_year column like
+
+              /datalake/silver/tbl_article_author/pub_year=1988/
 
 
 ## Installation
