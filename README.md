@@ -12,7 +12,7 @@ This is Spark Structured Streaming (Python or Scala) application in working cond
 
 # Source Code Directory Structure
 
-- Min Source code is divided into 3 directories.
+- Main Source code is divided into 3 directories. Due to time limit only silver layer is demonstrated here.
   i)Bronze ii)Silver iii)Gold
 
   - Silver:
