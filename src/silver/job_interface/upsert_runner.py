@@ -18,8 +18,7 @@ class Runner():
     def run(self):
         #Parse Author Information from XML FILE
         articleauthor = ArticleAuthor(self.logger, self.spark)
-        articleauthor_upsert = ArticleAuthorUpsert(
-            self.logger, self.spark, articleauthor)
+        articleauthor_upsert = ArticleAuthorUpsert(self.logger, self.spark, articleauthor)
         articleauthor_upsert.run()
 
 
